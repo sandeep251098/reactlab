@@ -1,20 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
-import homePage from './Components/Home';
-function App() {
+import React from "react";
+import { BrowserRouter } from "react-router-dom";
+import Nav from "./Components/Nav";
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        {/* <img src={logo} className="App-logo" alt="logo" /> */}
-        <p>
-          welcome to Home page
-          <homePage/>
-        </p>
-      
-      </header>
-   
-    </div>
-  );
+    <>
+      <BrowserRouter>
+        <Nav />
+      </BrowserRouter>
+    </>
+  )
 }
-
 export default App;

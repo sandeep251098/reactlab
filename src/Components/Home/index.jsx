@@ -6,4 +6,4 @@ const homePage = ()=>{
         </>
     );
 }
-export default homePage;
+export default homePage; 
