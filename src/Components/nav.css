@@ -43,6 +43,7 @@
         width: 175px;
         cursor: pointer;
         object-fit: cover;
+        margin-left: 30px;
     }
 
     .header .mid_header .seach_box input {
